@@ -10,8 +10,8 @@
 <mat-card *ngFor="let post of posts$ | async">
     <mat-list-item>
       <mat-icon mat-list-icon>folder</mat-icon>
-      <div mat-line>{{post.title}}</div>
-      <div mat-line> {{post.body}} </div>
+      <div mat-line>Title: {{post.title}}</div>
+      <div mat-line>Body: {{post.body}} </div>
     </mat-list-item>
 </mat-card>
 <!-- <pre>{{post | async}}</pre> -->
